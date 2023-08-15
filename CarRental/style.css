@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.custom-container{
+    display: flex!important;
+    align-items: center;
+}
+.custom-container h1{
+    font-size: 40px;
+}
+
+.custom-container-content{
+    flex:1;
+}
+.custom-container-image{
+    flex: 0.75;
+}
+
+.grid-img{
+    height: 60px;
+    width: 80px;
+}
+
+.grid-img img{
+    height: 100%!important;
+    width: 100%;
+    object-fit: contain;
+}
+
+.slick-dots li button:before{
+    font-size: 10px!important;
+}
+
+.contact-form{
+    box-shadow: 2px 2px 6px 6px #badfdb;
+    border: none;
+}
+.contact-form-input{
+    padding: 5px;
+}
+
+.contact-info-btn{
+    color: white;
+}
+.custom-homeImg img{
+    object-fit: cover;
+    width: 100%;
+}

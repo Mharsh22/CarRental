@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us -  CarRentals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flex justify-between items-center bg-[#8AA6A3] py-5 text-white">
+        <a href="./index.html" class="title font-bold ml-10 text-3xl">CarRentals</a>
+        <nav class="font-medium mr-10">
+          <ul class="flex gap-[20px]">
+            <li><a href="./carListing.html">Car Listing</a></li>
+            <li><a href="./privacy.html">Privacy</a></li>
+            <li><a href="./faq.html">FAQs</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <section class="container mx-auto p-10">  
+    <h1 class="text-center text-2xl font-bold mb-5">Contact Us -  CarRentals</h1>
+
+    <div class="flex justify-center my-5 gap-24">
+
+        <div class="contact-form border-zinc-800 border rounded py-3 px-5 flex-[0.75]">
+            <!-- <h2 class="text-center text-xl font-bold">Get in Touch</h2> -->
+            <form action="#" method="post" class="flex flex-col gap-6">
+              <input class="contact-form-input" type="text" name="name" placeholder="Your Name" required>
+              <input class="contact-form-input" type="text" name="email" placeholder="Your Email" required>
+              <input class="contact-form-input" type="text" name="subject" placeholder="Subject" required>
+              <textarea  class="contact-form-input" name="message" placeholder="Your Message" rows="6" required></textarea>
+              <button type="submit" class="contact-info-btn bg-[#badfdb] border rounded py-3 px-5 my-3 font-semibold">Send Message</button>
+            </form>
+          </div>
+
+  <div class="contact-info grid grid-cols-2 justify-center items-center">
+    <div class="font-bold">
+      <label>Address:</label>
+      <p>123 Main Street</p>
+      <p>City, Country</p>
+    </div>
+    <div class="font-bold">
+      <label>Email:</label>
+      <p>info@carrentals.com</p>
+    </div>
+    <div class="font-bold">
+      <label>Phone:</label>
+      <p>(123) 456-7890</p>
+    </div>
+    <div class="font-bold">
+      <label>Opening Hours:</label>
+      <p>Mon - Fri: 8:00 AM to 6:00 PM</p>
+      <p>Sat - Sun: 9:00 AM to 4:00 PM</p>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <footer class="bg-[#8AA6A3] text-gray-500">
+    <div class="container mx-auto py-4 px-6">
+        <p class="text-sm text-center">© 2023 CarRentals Company. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
